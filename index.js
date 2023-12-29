@@ -41,15 +41,50 @@ console.log(selectedcolor);
 
 //function
 
+
 function greet(name, lastName) {
-    console.log('hello'+' ' + name + ' ' + lastName);
+    console.log('hello' + ' ' + name +' '  + lastName)
 };
-greet('nahtty', 'garomsa');
+greet('nati', 'garomsa');
 
-function square(number) {
-    return number * number;
-}
 
-console.log(square(2));
-  
 
+//arthimetic operator
+
+
+let x =10;
+let y = 5;
+
+console.log(x+y);
+console.log(x-y);
+console.log(x*y);
+console.log(x/y);
+console.log(x%y);
+console.log(x**y);
+
+// increment 
+console.log(x++)
+console.log(++x)
+//decrement
+
+console.log(--x)
+console.log(x--)
+
+//comparison 
+
+let = 1;
+//relational 
+console.log(x>0);
+console.log(x<=1);
+console.log(x<1);
+
+// equlity 
+console.log(x === 0);
+console.log(x !== 0);
+
+// ternary
+
+let point=90;
+let type = point > 100 ? 'blue' : 'red';
+
+console.log(type);
