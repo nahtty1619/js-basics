@@ -88,3 +88,19 @@ let point=90;
 let type = point > 100 ? 'blue' : 'red';
 
 console.log(type);
+
+//bitwise or 
+console.log(1 | 2); 
+console.log(1 & 2); 
+
+
+const readpermission = 4;
+const writepermission = 2;
+const executepermisson= 0;
+
+let mypermission =0;
+mypermission = mypermission | readpermission | writepermission;
+console.log(mypermission);
+
+let message = (mypermission | readpermission) ? "yes" : "no";
+console.log(message);
