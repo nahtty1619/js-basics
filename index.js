@@ -120,3 +120,39 @@ else if(hour >=12 && hour >18){
 else{
     console.log('good evening')
 }
+
+//swithcase
+
+let role = 'moderate';
+
+switch(role){
+    case 'guest':
+console.log('guest user')
+break;
+
+case 'moderate':
+console.log('moderate user')
+break;
+default:
+    console.log('unknown user')
+}
+
+//for loop
+
+for(let i=0; i<=5; i++){
+    
+    if(i%2 !==0) console.log(i);
+}
+ //while loop
+//let i=0;
+while(i<5){
+    if(i%2 !==0) console.log(i);
+    i++;
+}
+
+//do while loop
+let i=0;
+do{
+    if(i%2 !==0) console.log(i);
+    i++;
+}while(i<5)
